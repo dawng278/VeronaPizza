@@ -11,7 +11,6 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^8.56.0",
