@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MenuItemCard from './MenuItemCard';
-import Button from '../Common/Button'; // Import Button component
 
 const MenuSection = React.memo(({ sectionTitle, items, user, setShowAddProductModal }) => {
     // Group items by their section (e.g., "CHEESE VOLCANO", "SUPER TOPPING")

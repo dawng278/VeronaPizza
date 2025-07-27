@@ -1,6 +1,6 @@
 // frontend/src/components/Home/RecommendationSection.jsx
 import React from 'react';
-import Button from '../Common/Button.jsx';
+import Button from '../common/Button.jsx';
 import PizzaCard from '../Pizza/PizzaCard.jsx';
 
 // THAY ĐỔI CÁC DÒNG NÀY:

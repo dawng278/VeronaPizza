@@ -1,7 +1,7 @@
 // frontend/src/components/Home/HeroSection.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '../Common/Button.jsx';
+import Button from '../common/Button.jsx';
 import pizzaHero from '../../assets/images/thumbnails/pizza-hero.png'; // Ảnh hero pizza
 
 const HeroSection = () => {
