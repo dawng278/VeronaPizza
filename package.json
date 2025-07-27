@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -10,6 +11,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^8.56.0",
@@ -18,8 +20,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
-    "vite": "^5.1.0"
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.4"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.7",
