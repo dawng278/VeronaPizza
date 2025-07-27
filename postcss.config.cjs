@@ -1,7 +1,6 @@
-// postcss.config.js hoặc postcss.config.cjs
-module.exports = {
+export default {
   plugins: {
-    '@tailwindcss/postcss': {}, // <--- quan trọng, không phải 'tailwindcss' nữa
+    tailwindcss: {}, // Đây là cú pháp ĐÚNG cho Tailwind CSS v3
     autoprefixer: {},
   },
-};
+}

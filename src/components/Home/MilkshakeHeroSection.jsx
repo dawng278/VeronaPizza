@@ -1,7 +1,7 @@
 // frontend/src/components/Home/MilkshakeHeroSection.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '../Common/Button.jsx';
+import Button from '../common/Button.jsx';
 import milkshakeHeroImage from '../../assets/images/thumbnails/milkshake-hero.png'; // Đảm bảo đường dẫn đúng
 
 const MilkshakeHeroSection = () => {
